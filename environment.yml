@@ -2,8 +2,9 @@ name: interest-env
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
+  - python
   - numpy
   - matplotlib
-  - ipympl
   - ipywidgets
+  - ipympl
+  - voila
